@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="shortcut icon" href="img/logo reducido.png">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+  <!-- mis estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="stylesheet" href="vendors/jquery.owl.carousel/owl.carousel.min.js">
+  <link rel="stylesheet" href="vendors/jquery.owl.carousel/assets/owl.theme.default.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-md">
+        <a class="navbar-brand" href="index.html"><img width="40%" src="img/logo.png" alt="logo de Matcha"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="te-negro.html">Té negro</a></li>
+                <li><a class="dropdown-item" href="#">Té verde</a></li>
+                <li><a class="dropdown-item" href="#">Té Oolong</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="productos.html">Todos</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html" aria-current="page">Contacto<span
+                  class="visually-hidden">(actual)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="banner-principal">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banners/contacto.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </section>
+
+
+  <section m-5 class="formulario">
+    <div class="container">
+
+      <h1 class="mt-5">Contactate</h1>
+      <h2 style="text-align: left;">Formulario</h2>
+      <p">Para que podamos contactarnos con vos te pedimos que completes y envies el siguiente formulario.</p>
+
+        <form class="row g-3">
+
+          <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Ejemplo: Tatiana">
+          </div>
+          <div class="col-md-5">
+            <label for="inputPassword4" class="form-label">Apellido</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Ejemplo: Miño">
+          </div>
+          <div class="col-md-10">
+            <label for="validationCustom04" class="form-label">Mail</label>
+            <input type="text" class="form-control" id="validationCustom04" required
+              placeholder="Ejemplo: tatiana@gmail.com">
+            <div class="form-text" id="basic-addon4">*Este campo es obligatorio</div>
+          </div>
+
+
+          <div class="col-md-10">
+            <label for="validationCustom04" class="form-label">Número celular</label>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="validationCustom04">+54</span>
+              <input type="text" class="form-control" id="validationCustom04" placeholder="Ejemplo: 01156348912">
+            </div>
+            <div class="form-text" id="basic-addon4" style="font-style: italic"> Ingresa los números sin espacios ni
+              guiones.</div>
+          </div>
+
+
+
+          <div class="col-md-5">
+            <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+              <option selected>Selecciona una Provincia</option>
+              <option>Buenos Aires</option>
+              <option>Ciudad Autónoma de Buenos Aires</option>
+              <option>Catamarca</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Córdoba</option>
+              <option>Corrientes</option>
+              <option>Entre Ríos</option>
+              <option>Formosa</option>
+              <option>Jujuy</option>
+              <option>La Pampa</option>
+              <option>La Rioja</option>
+              <option>Mendoza</option>
+              <option>Misiones</option>
+              <option>Neuquén</option>
+              <option>Río Negro</option>
+              <option>Salta</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Santa Cruz</option>
+              <option>Santa Fé</option>
+              <option>Santiago del Estero</option>
+              <option>Tierra del Fuego</option>
+              <option>Tucumán</option>
+            </select>
+          </div>
+
+          <div class="col-md-5">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+
+          <fieldset class="row mt-5">
+            <legend class="col-form-label col-sm-10 pt-0">¿Porque querés que te contactemos?</legend>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Quiero abrir una sucursal.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Quisiera recorrer las cocinas.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+              <label class="form-check-label" for="gridRadios3">
+                Quiero hacer un reclamo.
+              </label>
+
+            </div>
+
+            <div class="col-md-10">
+              <div class="mb-3 mt-4">
+                <label for="validationTextarea" class="form-label">¿Querés dejarnos algún otro motivo o
+                  comentario?</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="..."></textarea>
+              </div>
+            </div>
+
+            <div class="col-12 mb-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Quiero suscribirme al Newsletter
+                </label>
+                <p style="font-weight: 100; ">Pasamos recetas, lanzamientos con beneficios y novedades. Sumate.</p>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary" onclick="funcionAEjecutar()">Enviar formulario</button>
+            </div>
+        </form>
+
+    </div>
+  </section>
+
+  <footer class="d-none d-md-block mt-5">
+
+    <div class="container p-4">
+        <div class="row">
+            <div class="col">
+                <p>Alumno: Tatiana Miño</p>
+                <p>Materia: Desarrollo II</p>
+                <p>Comisión: 1.2.B</p>
+                <p>Año de cursada: 2do.</p>
+            </div>
+
+            <div class="col">
+                <p>Encontranos en nuestras redes sociales:</p>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/redes-sociales/instagram.png"
+                        style="width: 50px;" alt="logo de Instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="img/redes-sociales/facebook.png"
+                        style="width: 50px;" alt="logo de Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="img/redes-sociales/x.png"
+                        style="width: 50px;" alt="logo de X"></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+  <script>
+    function funcionAEjecutar() {
+      alert("El formulario se ha enviado correctamente.");
+    }
+  </script>
+
+  <!-- No completo la funcionalidad del formulario con JavaScript porque este cuatrimestre cursé Introducción a la Programación y, por lo tanto, todavía no curse Programación 1 -->
+
+
+  <!-- jquery -->
+  <script src="vendors/jquery-3.7.1.min.js"></script>
+
+  <script src="vendors/jquery.owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- bootstrap -->
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
