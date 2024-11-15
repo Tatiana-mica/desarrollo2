@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha</title>
+
+    <link rel="shortcut icon" href="img/logo reducido.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- WhatsApp -->
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Almarai:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-md">
+                <a class="navbar-brand" href="index.html"><img width="40%" src="img/logo.png" alt="logo de Matcha"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="te-negro.html">Té negro</a></li>
+                                <li><a class="dropdown-item" href="#">Té verde</a></li>
+                                <li><a class="dropdown-item" href="#">Té Oolong</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="productos.html">Todos</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner-principal">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/inicio/banner-principal.webp" class="demo d-block w-100" alt="..."
+                    data-imgurl="large.jpg">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-bg-light p-1" style="--bs-bg-opacity: .5;">¿Que estas esperando para vivir tu
+                        experiencia Matcha?</h1>
+                    <p>Té en hebras de alta calidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bloquecta m-5">
+        <div class="container">
+            <h2 class="mb-4">Hora de stockearte</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="img/inicio/bloquecta/refill-de-hebras.jpg" class="card-img"
+                            alt="imagen de refill de hebras Matcha">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title">REFILL DE HEBRAS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="img/inicio/bloquecta/hebras-en-lata.jpg" class="card-img"
+                            alt="imagen de latas Matcha">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title">HEBRAS EN LATA</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="img/inicio/bloquecta/accesorios.jpg" class="card-img"
+                            alt="imagen de accesorios Matcha">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title">ACCESORIOS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-md-4 mx-auto mt-4">
+                <button type="button" class="btn btn-lg">Ver productos</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bloquepastillasdeinfo m-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="col col-md-12" type="button">
+                                <div class="card mb-3" style="background-color: #355542; color: azure;">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-md-3">
+                                            <img src="img/inicio/bloquepastillasdeinfo/nuestra-carta.jpg"
+                                                class="img-fluid rounded-start d-block w-100"
+                                                alt="plato con una ensalada">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="card-body">
+                                                <h4 class="card-title">NUESTRA CARTA</h4>
+                                                <p class="card-text">Te mostramos un adelanto de nuestros platos
+                                                    para
+                                                    que
+                                                    vayas viendo que vas a pedir.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col col-md-12" type="button">
+                                <div class="card mb-3" style="background-color: #355542; color: azure;">
+                                    <div class="row g-0">
+                                        <div class="col-md-3">
+                                            <img src="img/inicio/bloquepastillasdeinfo/nuestros-locales.jpg"
+                                                class="img-fluid rounded-start d-block w-100"
+                                                alt="salon de una sucursal de Matcha">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="card-body">
+                                                <h4 class="card-title">NUESTRAS SUCURSALES</h4>
+                                                <p class="card-text">Mira la ubicación de cada uno de nuestros
+                                                    locales
+                                                    para
+                                                    elegir el que te quede más cómodo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col col-md-12" type="button">
+                                <div class="card mb-3" style="background-color: #355542; color: azure;">
+                                    <div class="row g-0">
+                                        <div class="col-md-3">
+                                            <img src="img/inicio/bloquepastillasdeinfo/todos-nuestros-tes.jpg"
+                                                class="rounded-start d-block w-100" alt="hebras de té sobre una mesa">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="card-body">
+                                                <h4 class="card-title">TODOS NUESTROS TÉS</h4>
+                                                <p class="card-text">Conocé toda nuestra selección de hebras y elegí
+                                                    la
+                                                    que
+                                                    me dejor quede con vos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bloquegaleria m-5">
+        <h2 class="mb-4">Tipos de Tés</h2>
+        <div class="container text-center">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <figure class="figure">
+                        <img src="img/inicio/galeria/1-verde.avif" class="figure-img img-fluid rounded" alt="té verde">
+                        <h4 class="card-title">VERDE</h4>
+                        <figcaption class="figure-caption">Ayuda a perder peso y disminuir el riesgo de sufrir
+                            enfermedades.</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <figure class="figure">
+                        <img src="img/inicio/galeria/2-matcha.avif" class="figure-img img-fluid rounded" alt="té verde">
+                        <h4 class="card-title">MATCHA</h4>
+                        <figcaption class="figure-caption">Reduce el estrés, es antioxidante y mejora la salud
+                            cerebral.</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <figure class="figure">
+                        <img src="img/inicio/galeria/3-rooibos.avif" class="figure-img img-fluid rounded"
+                            alt="té verde">
+                        <h4 class="card-title">ROOIBOS</h4>
+                        <figcaption class="figure-caption">Protege el sistema cardiovascular y evita el
+                            envejecimiento prematuro.</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <figure class="figure">
+                        <img src="img/inicio/galeria/4-oolong.avif" class="figure-img img-fluid rounded" alt="té verde">
+                        <h4 class="card-title">OOLONG</h4>
+                        <figcaption class="figure-caption">Ayuda a perder peso, reduce el colesterol y mejora la
+                            calidad del sueño.</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <figure class="figure">
+                        <img src="img/inicio/galeria/5-negro.avif" class="figure-img img-fluid rounded" alt="té verde">
+                        <h4 class="card-title">NEGRO</h4>
+                        <figcaption class="figure-caption">Es inflamatorio y ayuda a prevenir enfermedades crónicas.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bloquetestimonios m-5">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    
+                    <div class="carousel-inner">
+
+                        <div class="col">
+                            <div class="carousel-item active">
+                                <div class="card justify-content-center">
+                                    <h5 class="card-header" style="text-align: center; background-color: #E1DACD">Testimonios</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Nadia, Buenos Aires</h5>
+                                        <p class="card-text" style="text-align: center;">"Me encantan todas las selecciones de tés que ofrecen, la
+                                            página es súper cómoda para realizar el pedido, y llegó increíblemente rápido."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h5 class="card-header" style="text-align: center; background-color: #E1DACD">Testimonios</h5>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Isabel, Santa Fé</h5>
+                                    <p class="card-text" style="text-align: center;">"Me sorprendió positivamente la velocidad con la que
+                                        llegaron los productos. Todo perfecto, muchas gracias!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h5 class="card-header" style="text-align: center; background-color: #E1DACD">Testimonios</h5>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Juan, Buenos Aires</h5>
+                                    <p class="card-text" style="text-align: center;">"Hermosos productos. Hice un regalo y quedé super bien!! Los
+                                        tés son los más!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+    </section>
+
+
+
+    <footer class="d-none d-md-block">
+
+        <div class="container p-4">
+            <div class="row">
+                <div class="col">
+                    <p>Alumno: Tatiana Miño</p>
+                    <p>Materia: Desarrollo II</p>
+                    <p>Comisión: 1.2.B</p>
+                    <p>Año de cursada: 2do.</p>
+                </div>
+
+                <div class="col">
+                    <p>Encontranos en nuestras redes sociales:</p>
+                    <a href="https://www.instagram.com" target="_blank"><img src="img/redes-sociales/instagram.png"
+                            style="width: 50px;" alt="logo de Instagram"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="img/redes-sociales/facebook.png"
+                            style="width: 50px;" alt="logo de Facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="img/redes-sociales/x.png"
+                            style="width: 50px;" alt="logo de X"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <div id="wapp"></div>
+
+
+
+    <!-- jquery -->
+    <script src="vendors/jquery-3.7.1.min.js"></script>
+
+    <script src="vendors/jquery.owl.carousel/owl.carousel.min.js"></script>
+
+    <!-- WhatsApp -->
+    <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        'use strict';
+
+        let $panel = $('.panel');
+
+        $panel.before('<button class="btn btn-primary">Click</button>')
+            .css('backgroundColor', 'green')
+            .hide();
+
+        // quién? cuándo? a quién? qué cosa?
+        $('button').on('mouseover', function () {
+            $panel.slideToggle();
+        });
+    </script>
+
+    <script>
+        'use strict';
+
+        $(document).ready(function () {
+
+            // chatear con WAPP
+            $('#wapp').venomButton({
+                phone: '541138762883',
+                chatMessage: 'Contacto',
+                message: "Hola, quiero hacer una consulta",
+                nameClient: "Mi proyecto DES2",
+                showPopup: true
+            });
+
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
