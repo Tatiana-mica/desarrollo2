@@ -1,0 +1,26 @@
+h2{
+    color: #355542;
+    text-align: center;
+}
+
+.btn{
+    background-color: #81862C;
+    color: azure;
+    justify-content: center;
+}
+
+footer{
+    height: 200px;
+    background-color: #81862C;
+    color: azure;
+    margin: 0px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
